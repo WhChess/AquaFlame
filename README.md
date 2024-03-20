@@ -32,6 +32,15 @@ Supports:
 ## Advanced options
 - [Create a custom engine](https://github.com/lichess-bot-devs/lichess-bot/wiki/Create-a-custom-engine)
 
+## Note
+Note: As the default, the config.yml file is written in "Windows CR LF" for Windows.
+
+## To-Do
+- Adding in-game chatbot support
+- Adding Chess960 support
+- Creating an opening book based on AquaFlame's games
+- Adding Chess960 opening books
+
 ## Information
 This is not the original version, see: https://github.com/lichess-bot-devs/lichess-bot
 
