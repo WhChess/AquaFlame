@@ -2,7 +2,7 @@
 
 You can play with [AquaFlame](https://lichess.org/@/AquaFlame) on [lichess.org](https://lichess.org)! 
 - Create challenge: [Play with AquaFlame](https://lichess.org/?user=AquaFlame#friend)
-- For your questions, you can contact me via Gmail: [EfeAnik](mailto:efe1anik@gmail.com)
+- For your questions, you can contact me via [Gmail](mailto:efe1anik@gmail.com)
 
 # Lichess-Bot
 [![Python Build](https://github.com/lichess-bot-devs/lichess-bot/actions/workflows/python-build.yml/badge.svg)](https://github.com/lichess-bot-devs/lichess-bot/actions/workflows/python-build.yml)
