@@ -37,12 +37,12 @@ Note: As the default, the config.yml file is written in "Windows CR LF" for Wind
 
 ## To-Do
 - Adding in-game chatbot support
-- Adding Chess960 support
+- Adding Chess960 and Crazyhouse? support
 - Creating an opening book based on AquaFlame's games
 - Adding Chess960 opening books
 
 ## Information
-This is not the original version, see: https://github.com/lichess-bot-devs/lichess-bot
+- This is not the original version, see: https://github.com/lichess-bot-devs/lichess-bot for the original version of this project.
 
 ## Engines, Opening Books and EGTB
 - [Dragon 3.3](https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?match_length=30&each_game=1&print=Details&each_game=1&eng=Dragon%20by%20Komodo%203.3%2064-bit%208CPU#Dragon_by_Komodo_3_3_64-bit_8CPU)
