@@ -70,14 +70,14 @@ class Conversation:
         is_eval = cmd.startswith("eval")
         if cmd in ("commands", "help"):
             self.send_reply(line,
-                            "Supported commands: !wait (wait a minute for my first move), !name, "
+                            "Supported commands: !wait (wait a minute for my first move), !engine, "
                             "!eval (or any text starting with !eval), !queue")
         elif cmd == "wait" and self.game.is_abortable():
             self.game.ping(seconds(60), seconds(120), seconds(120))
             self.send_reply(line, "Waiting 60 seconds...")
-        elif cmd == "name":
+        elif cmd == "engine" or cmd == "name":
             name = self.game.me.name
-            self.send_reply(line, f"{name} running {self.engine.name()} (lichess-bot v{self.version})")
+            self.send_reply(line, f"{name} running Dragon 3.3 by Komodo")
         elif is_eval and (from_self or line.room == "spectator"):
             stats = self.engine.get_stats(for_chat=True)
             self.send_reply(line, ", ".join(stats))
