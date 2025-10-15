@@ -32,7 +32,7 @@ engine:                            # Engine settings.
   draw_or_resign:
     resign_enabled: true           # Whether or not the bot should resign.
     resign_score: -1000            # If the score is less than or equal to this value, the bot resigns (in cp).
-    resign_for_egtb_minus_two: true # If true the bot will resign in positions where the online_egtb returns a wdl of -2.
+    resign_for_egtb_minus_two: false # If true the bot will resign in positions where the online_egtb returns a wdl of -2.
     resign_moves: 4                # How many moves in a row the score has to be below the resign value.
     offer_draw_enabled: true       # Whether or not the bot should offer/accept draw.
     offer_draw_score: 0.1          # If the absolute value of the score is less than or equal to this value, the bot offers/accepts draw (in cp).
@@ -184,7 +184,7 @@ greeting:
   #   {opponent} to insert opponent's name
   #   {me} to insert bot's name
   # Any other words in curly braces will be removed.
-  hello: "Hello! I'm {me} - Dragon 3 by Komodo" # Message to send to opponent chat at the start of a game
+  hello: "Hello! I'm {me} - Dragon 3 by Komodo." # Message to send to opponent chat at the start of a game
   hello_spectators: "Dragon 3 by Komodo." # Message to send to spectator chat at the start of a game
 
 # pgn_directory: "game_records"    # A directory where PGN-format records of the bot's games are kept
@@ -197,7 +197,7 @@ matchmaking:
   allow_matchmaking: true         # Set it to 'true' to challenge other bots.
   allow_during_games: false        # Set it to 'true' to create challenges during long games.
   challenge_variant: "random"      # If set to 'random', the bot will choose one variant from the variants enabled in 'challenge.variants'.
-  challenge_timeout: 60            # Create a challenge after being idle for 'challenge_timeout' minutes. The minimum is 1 minute.
+  challenge_timeout: 90            # Create a challenge after being idle for 'challenge_timeout' minutes. The minimum is 1 minute.
   challenge_initial_time:          # Initial time in seconds of the challenge (to be chosen at random).
     - 180
     - 300
