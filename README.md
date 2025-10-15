@@ -1,28 +1,9 @@
-<div align="center">
+# AquaFlame
+You can play with [AquaFlame](https://lichess.org/@/AquaFlame) on [lichess.org](https://lichess.org)! 
+- Create challenge: [Play with AquaFlame](https://lichess.org/?user=AquaFlame#friend).
+- For your questions, you can contact me via [Gmail](mailto:efe1anik@gmail.com).
 
-  ![lichess-bot](https://github.com/lichess-bot-devs/lichess-bot-images/blob/main/lichess-bot-icon-400.png)
-
-  <h1>lichess-bot</h1>
-
-  A bridge between [lichess.org](https://lichess.org) and bots.
-  <br>
-  <strong>[Explore lichess-bot docs »](https://github.com/lichess-bot-devs/lichess-bot/wiki)</strong>
-  <br>
-  <br>
-  [![Python Build](https://github.com/lichess-bot-devs/lichess-bot/actions/workflows/python-build.yml/badge.svg)](https://github.com/lichess-bot-devs/lichess-bot/actions/workflows/python-build.yml)
-  [![Python Test](https://github.com/lichess-bot-devs/lichess-bot/actions/workflows/python-test.yml/badge.svg)](https://github.com/lichess-bot-devs/lichess-bot/actions/workflows/python-test.yml)
-  [![Mypy](https://github.com/lichess-bot-devs/lichess-bot/actions/workflows/mypy.yml/badge.svg)](https://github.com/lichess-bot-devs/lichess-bot/actions/workflows/mypy.yml)
-
-</div>
-
-## Overview
-
-[lichess-bot](https://github.com/lichess-bot-devs/lichess-bot) is a free bridge
-between the [Lichess Bot API](https://lichess.org/api#tag/Bot) and chess engines.
-
-With lichess-bot, you can create and operate a bot on lichess. Your bot will be able to play against humans and bots alike, and you will be able to view these games live on lichess.
-
-See also the lichess-bot [documentation](https://github.com/lichess-bot-devs/lichess-bot/wiki) for further usage help.
+---
 
 ## Features
 Supports:
@@ -53,13 +34,25 @@ Can run on:
 - [Create a homemade engine](https://github.com/lichess-bot-devs/lichess-bot/wiki/Create-a-homemade-engine)
 - [Add extra customizations](https://github.com/lichess-bot-devs/lichess-bot/wiki/Extra-customizations)
 
-<br />
+---
+
+## To-Do List
+- [ ] Adding in-game chatbot support.
+- [ ] Adding Chess960 support and opening books.
+- [ ] Creating an opening book based on AquaFlame's games.
+
+## Engines and Opening Books
+- [Dragon 3.3](https://computerchess.org.uk/ccrl/404/cgi/engine_details.cgi?match_length=30&each_game=1&print=Details&each_game=1&eng=Dragon%20by%20Komodo%203.3%2064-bit%208CPU#Dragon_by_Komodo_3_3_64-bit_8CPU)
+- [KomodoChess](https://komodochess.com/)
+- [CheckMateX](https://github.com/WhChess/CheckMateX)
+
+---
+
+## Information
+This is a fork repository of the lichess-bot project, please see: https://github.com/lichess-bot-devs/lichess-bot.
 
 ## Acknowledgements
 Thanks to the Lichess team, especially T. Alexander Lystad and Thibault Duplessis for working with the LeelaChessZero team to get this API up. Thanks to [Niklas Fiekas](https://github.com/niklasf) and his [python-chess](https://github.com/niklasf/python-chess) code which allows engine communication seamlessly.
 
 ## License
 lichess-bot is licensed under the AGPLv3 (or any later version at your option). Check out the [LICENSE file](https://github.com/lichess-bot-devs/lichess-bot/blob/master/LICENSE) for the full text.
-
-## Citation
-If this software has been used for research purposes, please cite it using the "Cite this repository" menu on the right sidebar. For more information, check the [CITATION file](https://github.com/lichess-bot-devs/lichess-bot/blob/master/CITATION.cff).
